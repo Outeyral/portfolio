@@ -17,13 +17,14 @@ html {
     --main-color: #ffae00;
 
     --big-font: 5rem;
-    --h3: 2rem;
-    --p-font: 1.2rem;
+    --h3: 2.5rem;
+    --p-font: 1.1rem;
 }
 
 body {
     background-color: var(--bg-color);
     min-width: 800px;
+    max-width: 1850px
 }
 main {
     background-color: var(--bg-color);
@@ -288,6 +289,11 @@ p:last-child {
     h3 {
         font-size: var(--h3);
     }
+
+    :root {
+        --big-font: 5rem;
+        --p-font: 1.5rem;
+    }
 }
 
 @media (max-width: 1850px) {
@@ -303,15 +309,8 @@ p:last-child {
     #about-my {
         margin-left: 50px;
         margin-right: 50px;
-
     }
-
-    :root {
-        --big-font: 5rem;
-        --p-font: 1.2rem;
-        --h3: 2rem;
-        transition: 0.2s;
-    }
+        
 }
 
 @media (max-width: 1370px) {
@@ -325,14 +324,11 @@ p:last-child {
     }
     :root {
         --big-font: 4rem;
-        --p-font: 1.1rem;
+        --p-font: 1rem;
         --h3: 2rem;
         transition: 0.2s;
     }
 }
-@media (max-width: 1327px {
-    :root {
-        --big-font: 3.7rem
 
 @media (max-width: 1091px) {
     .navbar a{
@@ -340,8 +336,8 @@ p:last-child {
     }
     :root {
         --big-font: 3.5rem;
-        --p-font: 1rem;
-        --h3: 1.8rem;
+        --p-font: 0.9rem;
+        --h3: 1.7rem;
         transition: .5s;
     }
 }
@@ -396,5 +392,3 @@ p:last-child {
         height: auto;
     }
 }
-
-

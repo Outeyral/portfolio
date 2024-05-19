@@ -330,13 +330,16 @@ p:last-child {
         transition: 0.2s;
     }
 }
+@media (max-width: 1327px {
+    :root {
+        --big-font: 3.7rem
 
 @media (max-width: 1091px) {
     .navbar a{
         margin: 0 15px;
     }
     :root {
-        --big-font: 4rem;
+        --big-font: 3.5rem;
         --p-font: 1rem;
         --h3: 1.8rem;
         transition: .5s;

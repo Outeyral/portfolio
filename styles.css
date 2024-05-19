@@ -18,7 +18,7 @@ html {
 
     --big-font: 5rem;
     --h3: 2rem;
-    --p-font: 1.1rem;
+    --p-font: 1.2rem;
 }
 
 body {
@@ -308,7 +308,7 @@ p:last-child {
 
     :root {
         --big-font: 5rem;
-        --p-font: 1.1rem;
+        --p-font: 1.2rem;
         --h3: 2rem;
         transition: 0.2s;
     }
@@ -325,7 +325,7 @@ p:last-child {
     }
     :root {
         --big-font: 5rem;
-        --p-font: 1rem;
+        --p-font: 1.1rem;
         --h3: 2rem;
         transition: 0.2s;
     }

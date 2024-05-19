@@ -307,9 +307,9 @@ p:last-child {
     }
 
     :root {
-        --big-font: 5rem;
-        --p-font: 1.1rem;
-        --h3: 2.5rem;
+        --big-font: 4rem;
+        --p-font: 1rem;
+        --h3: 2.2rem;
         transition: 0.2s;
     }
 }

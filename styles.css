@@ -17,8 +17,8 @@ html {
     --main-color: #ffae00;
 
     --big-font: 5rem;
-    --h3: 2.5rem;
-    --p-font: 1.1rem;
+    --h3: 2rem;
+    --p-font: 0.9rem;
 }
 
 body {
@@ -290,8 +290,9 @@ p:last-child {
     }
 
     :root {
-        --big-font: 5rem;
-        --p-font: 1.5rem;
+        --big-font: 6rem;
+        --p-font: 2rem;
+        --h3: 4rem
     }
 }
 
@@ -309,6 +310,13 @@ p:last-child {
         margin-left: 50px;
         margin-right: 50px;
 
+    }
+
+    :root {
+        --big-font: 5rem;
+        --p-font: 1.1rem;
+        --h3: 2.5rem;
+        transition: 0.2s;
     }
 }
 

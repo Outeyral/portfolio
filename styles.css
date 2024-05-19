@@ -288,12 +288,6 @@ p:last-child {
     h3 {
         font-size: var(--h3);
     }
-
-    :root {
-        --big-font: 6rem;
-        --p-font: 2rem;
-        --h3: 4rem
-    }
 }
 
 @media (max-width: 1850px) {

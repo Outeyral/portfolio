@@ -324,7 +324,7 @@ p:last-child {
         transition: .2s;
     }
     :root {
-        --big-font: 5rem;
+        --big-font: 4rem;
         --p-font: 1.1rem;
         --h3: 2rem;
         transition: 0.2s;

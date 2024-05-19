@@ -291,8 +291,8 @@ p:last-child {
     }
 
     :root {
-        --big-font: 5rem;
-        --p-font: 1.5rem;
+        --big-font: 4.5rem;
+        --p-font: 1.1rem;
     }
 }
 
@@ -309,8 +309,14 @@ p:last-child {
     #about-my {
         margin-left: 50px;
         margin-right: 50px;
+
     }
-        
+    :root {
+        --big-font: 4rem;
+        --p-font: 1rem;
+        --h3: 2rem;
+        transition: 0.2s;
+    }
 }
 
 @media (max-width: 1370px) {

@@ -18,7 +18,7 @@ html {
 
     --big-font: 5rem;
     --h3: 2rem;
-    --p-font: 0.9rem;
+    --p-font: 1.1rem;
 }
 
 body {
@@ -307,9 +307,9 @@ p:last-child {
     }
 
     :root {
-        --big-font: 4rem;
-        --p-font: 1rem;
-        --h3: 2.2rem;
+        --big-font: 5rem;
+        --p-font: 1.1rem;
+        --h3: 2rem;
         transition: 0.2s;
     }
 }
@@ -324,7 +324,7 @@ p:last-child {
         transition: .2s;
     }
     :root {
-        --big-font: 4rem;
+        --big-font: 5rem;
         --p-font: 1rem;
         --h3: 2rem;
         transition: 0.2s;
@@ -336,9 +336,9 @@ p:last-child {
         margin: 0 15px;
     }
     :root {
-        --big-font: 3.5rem;
-        --p-font: 0.9rem;
-        --h3: 1.7rem;
+        --big-font: 4rem;
+        --p-font: 1rem;
+        --h3: 1.8rem;
         transition: .5s;
     }
 }

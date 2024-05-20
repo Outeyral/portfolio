@@ -118,12 +118,6 @@ h1 {
     transform: translateY(-5px);
 }
 
-.boton:hover {
-    background: transparent;
-    color: var(--main-color);
-    transform: translateY(-5px);
-}
-
 h2 {
     font-weight: 600;
     font-size: 35px;
@@ -260,6 +254,18 @@ figcaption {
     width: 100%;
     object-fit: cover;
     max-width: 450px;
+}
+
+#img-linkedin img:hover {
+    background: transparent;
+    color: var(--main-color);
+    transform: translateY(-5px);
+}
+
+#img-github img:hover {
+    background: transparent;
+    color: var(--main-color);
+    transform: translateY(-5px);
 }
 
 #linkedin p {

@@ -118,6 +118,12 @@ h1 {
     transform: translateY(-5px);
 }
 
+.boton:hover {
+    background: transparent;
+    color: var(--main-color);
+    transform: translateY(-5px);
+}
+
 h2 {
     font-weight: 600;
     font-size: 35px;

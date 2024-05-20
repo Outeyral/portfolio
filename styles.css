@@ -259,7 +259,6 @@ figcaption {
 
 #img-linkedin img:hover {
     background: transparent;
-    color: var(--main-color);
     transform: translateY(-5px);
     border: 5px solid var(--main-color);
 }

@@ -1,4 +1,4 @@
-import user_image from './user-image.png';
+import user_image from './user_image.png';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -6,10 +6,14 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
-import firebase from './firebase.png';
+import python from './python-5.svg';
+import next from './next-js.svg';
+import css from './css-3.svg';
 import figma from './figma.png';
-import git from './git.png';
-import mongodb from './mongodb.png';
+import js from './logo-javascript.svg';
+import sql from './mysql-logo-pure.svg';
+import html from './html-1.svg';
+import react from './react.svg';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -45,10 +49,14 @@ export const assets = {
     project_icon,
     project_icon_dark,
     vscode,
-    firebase,
+    css,
+    next,
+    react,
+    sql,
     figma,
-    git,
-    mongodb,
+    python,
+    js,
+    html,
     right_arrow_white,
     logo,
     logo_dark,
@@ -107,11 +115,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, Python, React Js, Next Js' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Computer Systems Engineering at the National University of La Matanza.' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 3 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.js, assets.html, assets.css, assets.python, assets.vscode, assets.sql, assets.figma, assets.react, assets.next
 ];

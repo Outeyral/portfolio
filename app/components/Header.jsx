@@ -1,6 +1,6 @@
 import { assets } from '@/assets/assets'
-import Image from 'next/image'
 import React from 'react'
+import Image from 'next/image'
 
 const Header = () => {
   return (

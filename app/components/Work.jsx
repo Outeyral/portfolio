@@ -23,7 +23,7 @@ const Work = () => {
                         </div>
                         <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-pink-300 transition'>
                           <a href={project.link} target="_blank" rel="noopener noreferrer">
-                            <Image src={assets.send_icon} alt='send icon' className='w-5'/>
+                            <Image src={assets.send_icon} alt='send icon' className='w-5'/></a>
                         </div>
                     </div>
                 </div>

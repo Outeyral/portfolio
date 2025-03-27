@@ -21,16 +21,14 @@ const Work = () => {
                             <h2 className='font-semibold'>{project.title}</h2>
                             <p className='text-sm text-gray-700'>{project.description}</p>
                         </div>
-                        <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
+                        <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-pink-300 transition'>
+                          <a href={project.link} target="_blank" rel="noopener noreferrer">
                             <Image src={assets.send_icon} alt='send icon' className='w-5'/>
                         </div>
                     </div>
                 </div>
             ))}
         </div>
-        <a href='' className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500'>
-            Show more <Image src={assets.right_arrow_bold} alt="Right arrow" className='w-4'/>
-        </a>
     </div>
   )
 }

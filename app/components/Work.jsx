@@ -14,9 +14,9 @@ const Work = () => {
         </p>
 
         <div className='grid grid-cols-auto my-10 gap-5'>
-           <a href={project.link} target="_blank" rel="noopener noreferrer"></a>
             {workData.map((project, index) => (
                 <div key={index} className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group' style={{backgroundImage: `url(${project.bgImage})`}}>
+                  <a href={project.link} target="_blank" rel="noopener noreferrer"></a>
                     <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>
                         <div>
                             <h2 className='font-semibold'>{project.title}</h2>

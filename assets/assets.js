@@ -88,19 +88,19 @@ export const workData = [
     {
         title: 'Home Coffee',
         description: 'Web Design',
-        bgImage: '/work-1.png',
+        bgImage: '/descarga.png',
         link: 'https://outeyral.github.io/HomeCoffee/'
     },
     {
         title: 'ATS CV maker',
         description: 'Backend Lead',
-        bgImage: '/work-2.png',
+        bgImage: '/descarga1.png',
         link: 'https://github.com/niiyant/ats-cv-gen-back'
     },
     {
         title: 'Student App',
         description: 'Backend Developer',
-        bgImage: '/work-3.png',
+        bgImage: '/descarga2.png',
         link: 'https://github.com/Outeyral/StudentApp'
     }
 ]
